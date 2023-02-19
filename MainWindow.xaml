@@ -50,24 +50,69 @@
             >
             WrapPanel poziomy
         </Label>
+        <WrapPanel
+            Grid.Column="1"
+            Grid.Row="1"
+            >
+            <Label Style="{DynamicResource EtykietaA}">1</Label>
+            <Label Style="{DynamicResource EtykietaB}">2</Label>
+            <Label Style="{DynamicResource EtykietaA}">3</Label>
+            <Label Style="{DynamicResource EtykietaB}">4</Label>
+            <Label Style="{DynamicResource EtykietaA}">5</Label>
+            <Label Style="{DynamicResource EtykietaB}">6</Label>
+            <Label Style="{DynamicResource EtykietaA}">7</Label>
+            <Label Style="{DynamicResource EtykietaB}">8</Label>
+            <Label Style="{DynamicResource EtykietaA}">9</Label>
+            <Label Style="{DynamicResource EtykietaB}">10</Label>
+            <Label Style="{DynamicResource EtykietaA}">11</Label>
+        </WrapPanel>
         <Label
             Grid.Column="2"
             >
             WrapPanel pionowy
         </Label>
+        <WrapPanel
+            Grid.Column="2"
+            Grid.Row="1"
+            Orientation="Vertical"
+            >
+            <Label Style="{DynamicResource EtykietaA}">1</Label>
+            <Label Style="{DynamicResource EtykietaB}">2</Label>
+            <Label Style="{DynamicResource EtykietaA}">3</Label>
+            <Label Style="{DynamicResource EtykietaB}">4</Label>
+            <Label Style="{DynamicResource EtykietaA}">5</Label>
+            <Label Style="{DynamicResource EtykietaB}">6</Label>
+            <Label Style="{DynamicResource EtykietaA}">7</Label>
+            <Label Style="{DynamicResource EtykietaB}">8</Label>
+            <Label Style="{DynamicResource EtykietaA}">9</Label>
+            <Label Style="{DynamicResource EtykietaB}">10</Label>
+            <Label Style="{DynamicResource EtykietaA}">11</Label>
+        </WrapPanel>
         <Label
             Grid.Column="1"
             Grid.Row="2"
             >
             TextBlock
         </Label>
+        <TextBlock
+            Grid.Column="1"
+            Grid.Row="3"
+            TextWrapping="Wrap"
+            >
+            Tekst w bloku tekstowym może być zawijany
+        </TextBlock>
         <Label
             Grid.Column="2"
             Grid.Row="2"
             >
             TextBox
         </Label>
-        
-
+        <TextBox
+            Grid.Column="2"
+            Grid.Row="3"
+            TextWrapping="Wrap"
+            >
+            Tekst edytowalny
+        </TextBox>
     </Grid>
 </Window>
