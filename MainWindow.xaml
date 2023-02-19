@@ -11,7 +11,7 @@
     Height="600"
     Width="500"
     >
-    <Grid>
+    <Grid Background="{DynamicResource PędzelGradientuBiałoSeledynowy}">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition/>
@@ -23,14 +23,14 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label
-            HorizontalContentAlignment="Center"
-            VerticalContentAlignment="Center"
-            Background="#FFC1D199"
-            >
+        <Label>
             Etykieta
         </Label>
-
+        <Label
+            Grid.Column="1"
+            >
+            Inna etykieta
+        </Label>
 
     </Grid>
 </Window>
