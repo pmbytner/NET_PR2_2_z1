@@ -15,7 +15,9 @@
             <GradientStop Color="{DynamicResource KolorSeledynowy}" Offset="1"/>
         </LinearGradientBrush>
         <SolidColorBrush x:Key="PędzelSeledynowy" Color="{DynamicResource KolorSeledynowy}"/>
-        <Style TargetType="{x:Type Label}">
+        <Style
+            TargetType="{x:Type Label}"
+            >
             <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
             <Setter Property="Background" Value="{DynamicResource PędzelSeledynowy}"/>
             <Setter Property="Padding" Value="5"/>
@@ -37,6 +39,31 @@
                 </Setter.Value>
             </Setter>
             -->
+        </Style>
+
+        <Style
+            x:Key="SpecjalnaEtykieta"
+            TargetType="{x:Type Label}"
+            BasedOn="{StaticResource {x:Type Label}}"
+            >
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="5"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource PędzelGradientuBiałoSeledynowy}"/>
+        </Style>
+
+        <Style
+            x:Key="EtykietaA"
+            TargetType="{x:Type Label}"
+            BasedOn="{StaticResource SpecjalnaEtykieta}"
+            >
+            <Setter Property="Background" Value="#EED"/>
+        </Style>
+        <Style
+            x:Key="EtykietaB"
+            TargetType="{x:Type Label}"
+            BasedOn="{StaticResource SpecjalnaEtykieta}"
+            >
+            <Setter Property="Background" Value="#DEE"/>
         </Style>
     </Application.Resources>
 </Application>
