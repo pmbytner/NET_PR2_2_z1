@@ -12,6 +12,25 @@
     Width="500"
     >
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Background="#FFC1D199"
+            >
+            Etykieta
+        </Label>
+
 
     </Grid>
 </Window>
