@@ -114,5 +114,12 @@
             >
             Tekst edytowalny
         </TextBox>
+        <RichTextBox Grid.Row="3">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
     </Grid>
 </Window>
